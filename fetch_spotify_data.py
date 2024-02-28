@@ -77,5 +77,5 @@ for i, row in df_spotify.iterrows():
 print("successfull")
 print(df_spotify['image_url'])
 
-# Save the updated DataFrame (replace 'updated_file.csv' with your desired output file name)
-df_spotify.to_csv('updated_python_data.csv', index=False)
+# Salvando o DataFrame atualizado, exportando em .csv
+df_spotify.to_csv('updated_spotify_data.csv', index=False)
