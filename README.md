@@ -1,4 +1,4 @@
-# **Projeto: Análise de BI - Spotify (Power BI, PowerPoint e Python)**
+# **Projeto: Relatório Dashboard - Spotify (Power BI, PowerPoint e Python)**
 
 ## **Stack**
 Power BI, PowerPoint, Python(pandas, requests)
@@ -153,6 +153,15 @@ Alguns dos Insights gerados a partir das medidas criadas utilizando funções DA
 ![Image HTML I](/img/Image%20HTML%20Insight.png)<br>
 ![Image HTML](/img/Image%20HTML.png)
 
+## Extra Visuals
+Vale citar o uso de visuais personalizados que foram baixados como conteúdo extra no Power BI para auxiliar no processo de análise.
+
+- **Deneb: Declarative Visualization**<br>
+Este visual foi responsável pela criação de gráficos customizados a partir de Templates, assim como o Heat Map personalizado de "Track Count", já citado anteriormente. Derivado de Template registrado no seguinte repositório github: https://github.com/PowerBI-tips/Deneb-Templates/blob/main/templates/heatmap%20with%20bars%20-%20red%20themed.json.<br>
+Também possibilitou a criação da KPI "Percent Val" já citada, através do Template: https://github.com/PBI-David/Deneb-Showcase.
+
+- **HTML Content**<br>
+Este visual tornou possível utilizar códigos HTML no Power BI. Dessa forma foi realizada a exibição do Album Cover de cada música no visual de "Image HTML" registrado na seção anterior de Insights.
 
 ## Dashboard
 Aqui está a estrutura final do painel de Dashboard criado no Power BI, construído a partir das análises e gráficos:
