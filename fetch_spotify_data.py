@@ -53,8 +53,8 @@ def get_track_details(track_id, token):
 
 
 # Spotidy API Credentials
-client_id = 'a2c7db2e82dd42b9852b9c6e62bc5820'
-client_secret = '92d243c13e9649f4afc46a2695dbddf4'
+client_id = 'xxxxxxxxxxxxxx' # Foi necessário censurar o token
+client_secret = 'xxxxxxxxxxxxxx' # Foi necessário censurar o token
 
 # GET Token
 access_token = get_spotify_token(client_id, client_secret)
@@ -66,16 +66,11 @@ df_spotify = pd.read_csv('spotify-2023.csv', encoding='ISO-8859-1')
 for i, row in df_spotify.iterrows():
     track_id = search_track(row['track_name'], row['artist_name'], access_token)
     print("Counter: ", i)
-    print(track_id)
 
     if track_id:
         image_url = get_track_details(track_id, access_token)
-        print(image_url)
 
         df_spotify.at[i, 'image_url'] = image_url
-
-print("successfull")
-print(df_spotify['image_url'])
 
 # Salvando o DataFrame atualizado, exportando em .csv
 df_spotify.to_csv('updated_spotify_data.csv', index=False)
