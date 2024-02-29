@@ -124,23 +124,38 @@ df_spotify.to_csv('updated_spotify_data.csv', index=False)
 ```
 
 ## PowerPoint
+A ferramenta Microsoft PowerPoint foi utilizada nesse projeto para criação do Background que foi escolhido para o layout do Dashboard.<br>
+Ele foi modelado a partir de formas e estilos personalizados na plataforma, segue a imagem do resultado final:<br><br>
+![Background](/pptx/Background.png)
 
-## Power BI (DAX e Insights)
-Algumas das medidas criadas utilizando funções DAX: <br>
+## Power BI (Insights e DAX)
+Alguns dos Insights gerados a partir das medidas criadas utilizando funções DAX: <br>
 - Average Stream per Year:<br>
-![Average Stream per Year](https://github.com/caioypaulino/Projeto-PowerBI_Spotify/blob/main/img/Average%20Stream%20per%20Year.png)
+![Average Stream per Year I](/img/Average%20Stream%20per%20Year%20Insight.png)<br>
+![Average Stream per Year](/img/Average%20Stream%20per%20Year.png)
+
+
+- Top Song vs AVG (+Val):<br>
+![Top Song vs AVG I](/img/Top%20Song%20vs%20AVG%20Insight.png)<br>
+![Top Song vs AVG Val](/img/Top%20Song%20vs%20AVG%20Val.png)
+![Top Song vs AVG](/img/Top%20Song%20vs%20AVG.png)
+
+
+- Track Count:<br>
+![Track Count I](/img/Track%20Count%20Insight.png)<br>
+![Track Count](/img/Track.png)
+
+- Percent Val:<br>
+![Percent Val I](/img/Percent%20Val%20Insight.png)<br>
+![Percent Val](/img/Percent%20Val.png)
+
+- Image HTML:<br>
+![Image HTML I](/img/Image%20HTML%20Insight.png)<br>
+![Image HTML](/img/Image%20HTML.png)
 
 
 ## Dashboard
-Aqui está a estrutura final do painel de Dashboard, construído a partir das análises e gráficos criados através do Databricks Notebook:
+Aqui está a estrutura final do painel de Dashboard criado no Power BI, construído a partir das análises e gráficos:
 
-![DashboardGif](https://github.com/caioypaulino/Projeto-Videogame_Sales_Databricks/blob/main/Images/Dashboard.gif)
-
-## Imagens de Exemplo:
-(Acesse o link acima para conferir todas as análises detalhadas)
-
-![Dashboard](https://github.com/caioypaulino/Projeto-Videogame_Sales_Databricks/blob/main/Images/Dashboard%20Videogame%20Sales%20Example.png)
-
-![Notebook5](https://github.com/caioypaulino/Projeto-Videogame_Sales_Databricks/blob/main/Images/Notebook%20005%20Example.png)
-
-![Notebook6](https://github.com/caioypaulino/Projeto-Videogame_Sales_Databricks/blob/main/Images/Notebook%20006%20Example.png)
+![DashboardGif](/img/Dashboard.gif)
+![DashboardJpg](/img/Spotify%20Dashboard.jpg)
