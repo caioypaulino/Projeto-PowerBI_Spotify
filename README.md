@@ -123,9 +123,12 @@ for i, row in df_spotify.iterrows():
 df_spotify.to_csv('updated_spotify_data.csv', index=False)
 ```
 
-## Power BI (DAX)
-Algumas das medidas criadas utilizando funções DAX:
-Average Stream per Year 
+## PowerPoint
+
+## Power BI (DAX e Insights)
+Algumas das medidas criadas utilizando funções DAX: <br>
+- Average Stream per Year:<br>
+![Average Stream per Year](https://github.com/caioypaulino/Projeto-PowerBI_Spotify/blob/main/img/Average%20Stream%20per%20Year.png)
 
 
 ## Dashboard
